@@ -5,8 +5,8 @@ import { auth, createUserProfileDocument } from '../../firebase/firebase.utils'
 import './signUp.scss'
 
 class SignUp extends React.Component {
-    constructor(props){
-        super(props);
+    constructor(){
+        super();
 
         this.state = {
             displayName: '',
@@ -27,7 +27,9 @@ class SignUp extends React.Component {
 
         try{
             const { user } = await auth.createUserWithEmailAndPassword(email, password);
+           
             await createUserProfileDocument(user, {displayName});
+           
             this.setState({
                 displayName: '',
                 email: '',
@@ -56,7 +58,7 @@ class SignUp extends React.Component {
                     name= 'displayName'
                     value= {displayName}
                     onChange={this.handleChange}
-                    label= 'Display name'
+                    label= 'Name'
                     required />
 
                     <FormInput
@@ -64,7 +66,7 @@ class SignUp extends React.Component {
                     name= 'email'
                     value= {email}
                     onChange={this.handleChange}
-                    label= 'Display email'
+                    label= 'Email'
                     required />
 
                     <FormInput
@@ -72,7 +74,7 @@ class SignUp extends React.Component {
                     name= 'password'
                     value= {password}
                     onChange={this.handleChange}
-                    label= 'Display password'
+                    label= 'Password'
                     required />
 
                     <FormInput
