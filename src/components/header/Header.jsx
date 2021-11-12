@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import { auth } from '../../firebase/firebase.utils'
 import { connect } from 'react-redux'
 import { ReactComponent as Logo } from '../../assets/crown.svg'
+import CartIcon from '../cart-icon/CartIcon'
 import './header.scss'
 
 const Header = ({ currentUser }) => {
@@ -24,6 +25,7 @@ const Header = ({ currentUser }) => {
                     :
                     <Link className='option' to='/signin'>SIGN IN</Link>
                 }
+                <CartIcon />
             </div>
         </div>
     )   
