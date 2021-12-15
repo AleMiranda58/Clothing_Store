@@ -5,7 +5,7 @@ import CustomButton from '../customButton/CustomButton'
 import './collectionItem.scss'
 
 const CollectionItem = ({ item, addItem }) => {
-    const { name, price, imageUrl } = item
+    const { name, price, imageUrl } = item;
     return (
         <div className='collection-item'>
             <div className='image' style={{backgroundImage: `url(${imageUrl})`}} />
