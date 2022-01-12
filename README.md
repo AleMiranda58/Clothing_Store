@@ -1,7 +1,9 @@
-<h3 align="center"> Clothing Store </h3>
+<h1 align="center">:department_store: Clothing Store </h1>
 
-This is an e-Commerce built to show a catalogue of products, do all the buy process online and sign up users.
-This project is currently in development.....
+<p align="center">
+This is an e-Commerce built with REACT.JS
+<br />Its main functionalities are: To show a catalogue of products, do all the buy process online and sign up users.</p>
+<h3 align="center">This project is currently in development.....</h3>
  
 Up to this point in the project, users are able to do the following actions: add items to the shopping cart and check the quantity and the total price of all the items added. The shopping cart updates itself as the user adds items. Also, the user can go to the checkout page and verify the items added to the shopping cart. Moreover, the user has the option to increase, decrease or remove these items and see the live changes on both the checkout page and in shopping car page. Eventually, the stripe API will be integrated to handle payments. 
  
