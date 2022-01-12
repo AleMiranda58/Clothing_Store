@@ -1,4 +1,4 @@
-# e-Commerce website build with React.js
+# e-Commerce website
 
 ## In the project directory, you can run:
 
