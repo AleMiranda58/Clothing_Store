@@ -1,4 +1,4 @@
-# Clothing Store
+<h3 align="center"> Clothing Store </h3>
 
 This is an e-Commerce built to show a catalogue of products, do all the buy process online and sign up users.
 This project is currently in development.....
