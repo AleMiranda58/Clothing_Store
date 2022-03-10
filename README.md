@@ -1,4 +1,4 @@
-<h1 align="center">:department_store: Clothing Store </h1>
+<!-- <h1 align="center">:department_store: Clothing Store </h1>
 
 <p align="center">
 This is an e-Commerce built with REACT.JS
@@ -17,5 +17,32 @@ Firebase is used to handle the authentication of users using Google, so they can
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
+
+ -->
+
+<h1 align="center">eCommerce</h1>
+<h3 align="center">🔥 On development...</h3>
+
+
+## About the project
+
+- 🔭 This Web Application is based on a React.js Bootcamp training **[Udemy](https://www.udemy.com/)**
+
+- 🌱 This is an amazing project to put in practice all the main concepts of **React.js** and **Redux** and been able to build a real-world web application.
+
+- 📫 How to reach me **ale.miranda890@gmail.com**
+
+
+## 🚀 Technologies used in the project:
+
+<div> 
+    <a href="https://reactjs.org/" target="_blank"> <img src="https://img.icons8.com/color/48/000000/react-native.png"/> </a>
+    <a href="https://redux.js.org" target="_blank"> <img src="https://img.icons8.com/color/48/000000/redux.png"/> </a>
+    <a href="https://sass-lang.com/" target="_blank"> <img src="https://img.icons8.com/color/48/000000/sass.png"/> </a> 
+    <a href="https://reactjs.org/" target="_blank"><img src="https://img.icons8.com/fluency/48/000000/stripe.png"/> </a>
+    <a href="https://firebase.google.com/" target="_blank"> <img src="https://img.icons8.com/color/48/000000/firebase.png"/> </a> 
+    <a href="https://git-scm.com/" target="_blank"> <img src="https://img.icons8.com/color/48/000000/git.png"/> </a> 
+</div>
+<br/>
 
 
