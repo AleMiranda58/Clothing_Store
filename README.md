@@ -2,7 +2,7 @@
 
 ## About the project
 
-- 🔭 This Web Application is based on a React.js Bootcamp training **[Udemy](https://www.udemy.com/)**
+- 🔭 This Web Application is based on a React.js Bootcamp training 
 
 - 🌱 This is an amazing project to put in practice all the main concepts of **React.js** and **Redux** and been able to build a real-world web application.
 
